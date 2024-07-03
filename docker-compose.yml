@@ -2,6 +2,6 @@ version: '3'
 services:
   nodejs-app:
     container_name: nodejs-app
-    image: saswatsam/node-app  # Use the existing Docker image
+    image: saswatsam/node-app:latest  # Use the existing Docker image
     ports:
       - "3000:3000"
